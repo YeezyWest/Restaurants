@@ -1,0 +1,184 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body class="text-gray-600 bg-gray-100 font-body">
+     <div class="grid md:grid-cols-3"><!--Content wrapper-->
+        <div class="md:cols-span-1 md:flex md:justify-end">
+          <nav class="text-right">
+            <div class="flex justify-between items-center">
+              <h1 class="font-bold p-4 border-2 hover:border-primary rounded-full transition ease-out duration-500">
+                <a href="#" class="hover:text-gray-700">Mr West</a>
+              </h1>
+              <div class="px-4 cursor-pointer md:hidden" id="burger">
+                <svg class="w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+              </div>
+            </div>
+            <ul class="text-sm mt-6 hidden md:block" id="menu">
+              <li class="text-gray-900 font-bold py-1">
+                <a href="#" class="px-4 flex justify-end border-r-4 border-primary">
+                  <span>Home</span>
+                  <svg class="w-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
+                </a>
+              </li>
+              <li class="py-1">
+                <a href="#"  class="px-4 flex justify-end border-r-4 border-white">
+                  <span>About</span>
+                  <svg class="w-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                </a>
+              </li>
+              <li class="py-1">
+                <a href="#" class="px-4 flex justify-end border-r-4 border-white">
+                  <span>Contact</span>
+                  <svg class="w-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div> <!--navEnds here-->
+
+
+        <main class="px-16 py-b  md:col-span-2">
+          <div class="flex justify-center md:justify-end"> 
+            <a href="#" class="btn text-primary border-primary md:border-2 hover:bg-primary hover:text-white transition ease-out duration-500">Log in</a>
+            <a href="#" class="btn text-primary ml-2 border-primary md:border-2 hover:bg-primary hover:text-white transition ease-out duration-500">Sign up</a>
+          </div>
+
+          <header>
+            <h2 class="text-gray-900 text-6xl font-semibold">Recipe</h2>
+            <h3 class="text-2xl font-semibold">For Foods</h3>
+          </header>
+          <div>
+            <h4 class="font-bold mt-12 pb-2 border-b border-gray-600">Latest Recipes</h4>
+
+            <div class="mt-8 grid md:grid-cols-3 gap-10">  
+              <!--card goes here-->
+              <div class="card hover:shadow-lg transform hover:scale-125 hover:bg-opacity-50 transition ease-in-out duration-300">
+                   <img class="w-full h-32 md:h-48 object-cover" src="/images/anna-tukhfatullina-food-photographer-stylist-Mzy-OjtCI70-unsplash.jpg" alt="">
+                   <div class="m-4">
+                    <span class="font-bold">Cake Raspberry</span>
+                    <span class="block text-gray-500 text-sm">Recipe by west</span>
+                   </div>
+                   <div class="badge">
+                    <svg class="w-5 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    <span>25 mins</span>
+                   </div>
+              </div>
+
+              <div class="card hover:shadow-lg transform hover:scale-125 hover:bg-opacity-50 transition ease-in-out duration-300">
+                <img class="w-full h-32 md:h-48 object-cover" src="/images/alex-munsell-Yr4n8O_3UPc-unsplash.jpg" alt="">
+                <div class="m-4">
+                 <span class="font-bold">grilled stake with vegetable</span>
+                 <span class="block text-gray-5 00 text-sm">Recipe by west</span>
+                </div>
+                <div class="badge">
+                  <svg class="w-5 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                 <span>25 mins</span>
+                </div>
+           </div>
+         
+           <div class="card hover:shadow-lg transform hover:scale-125 hover:bg-opacity-50 transition ease-in-out duration-300">
+            <img class="w-full h-32 md:h-48 object-cover" src="/images/anna-pelzer-IGfIGP5ONV0-unsplash.jpg" alt="">
+            <div class="m-4">
+             <span class="font-bold">vegetable salad</span>
+             <span class="block text-gray-5 00 text-sm">Recipe by west</span>
+            </div>
+            <div class="badge">
+              <svg class="w-5 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+             <span>25 mins</span>
+            </div>
+       </div>
+
+       <div class="card hover:shadow-lg transform hover:scale-125 hover:bg-opacity-50 transition ease-in-out duration-300">
+        <img class="w-full h-32 md:h-48 object-cover" src="/images/brooke-lark-1Rm9GLHV0UA-unsplash.jpg" alt="">
+        <div class="m-4">
+         <span class="font-bold">Fruits</span>
+         <span class="block text-gray-5 00 text-sm">Recipe by west</span>
+        </div>
+        <div class="badge">
+          <svg class="w-5 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+         <span>25 mins</span>
+        </div>
+   </div>
+
+   <div class="card hover:shadow-lg transform hover:scale-125 hover:bg-opacity-50 transition ease-in-out duration-300">
+    <img class="w-full h-32 md:h-48 object-cover" src="/images/chad-montano-lP5MCM6nZ5A-unsplash.jpg" alt="">
+    <div class="m-4">
+     <span class="font-bold">Tacos</span>
+     <span class="block text-gray-5 00 text-sm">Recipe by west</span>
+    </div>
+    <div class="badge">
+      <svg class="w-5 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+     <span>25 mins</span>
+    </div>
+</div>
+
+<div class="card hover:shadow-lg transform hover:scale-125 hover:bg-opacity-50 transition ease-in-out duration-300">
+  <img class="w-full h-32 md:h-48 object-cover" src="/images/chad-montano-MqT0asuoIcU-unsplash.jpg" alt="">
+  <div class="m-4">
+   <span class="font-bold">Pizza</span>
+   <span class="block text-gray-5 00 text-sm">Recipe by west</span>
+  </div>
+  <div class="badge">
+    <svg class="w-5 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+   <span>25 mins</span>
+  </div>
+</div>
+
+<div class="card hover:shadow-lg transform hover:scale-125 hover:bg-opacity-50 transition ease-in-out duration-300">
+  <img class="w-full h-32 md:h-48 object-cover" src="/images/eiliv-sonas-aceron-ZuIDLSz3XLg-unsplash.jpg" alt="">
+  <div class="m-4">
+   <span class="font-bold">Cooked meal</span>
+   <span class="block text-gray-5 00 text-sm">Recipe by west</span>
+  </div>
+  <div class="badge">
+    <svg class="w-5 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+   <span>25 mins</span>
+  </div>
+</div>
+
+<div class="card hover:shadow-lg transform hover:scale-125 hover:bg-opacity-50 transition ease-in-out duration-300">
+  <img class="w-full h-32 md:h-48 object-cover" src="/images/ian-dooley-TLD6iCOlyb0-unsplash.jpg" alt="">
+  <div class="m-4">
+   <span class="font-bold">Strewberry ice cream</span>
+   <span class="block text-gray-5 00 text-sm">Recipe by west</span>
+  </div>
+  <div class="badge">
+    <svg class="w-5 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+   <span>25 mins</span>
+  </div>
+</div>
+
+<div class="card hover:shadow-lg transform hover:scale-125 hover:bg-opacity-50 transition ease-in-out duration-300">
+  <img class="w-full h-32 md:h-48 object-cover" src="/images/victoria-shes-UC0HZdUitWY-unsplash.jpg" alt="">
+  <div class="m-4">
+   <span class="font-bold">Grilled meat with vegetable</span>
+   <span class="block text-gray-5 00 text-sm">Recipe by west</span>
+  </div>
+  <div class="badge">
+    <svg class="w-5 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+   <span>25 mins</span>
+  </div>
+</div>
+
+      </div>
+            <h4 class="font-bold mt-12 pb-2 border-b border-gray-600">Most popular</h4>
+
+            <div class="mt-8">
+              <!--Card goes here-->
+            </div>
+
+            <div class="flex justify-center">
+              <div class="btn bg-secondary-100 text-secondary-200 hover:shadow-inner transform hover:scale-75 hover:bg-opacity-50 transition ease-out duration-300">Load more</div>
+            </div>
+
+          </div>
+        </main>
+     </div>
+<script src="index.js"></script>
+</body>
+ </div>
+</html>
